@@ -1,0 +1,34 @@
+/*HTTP 5103 Pet Project CSS file Mohammad Baqir*/
+*{
+    margin: 0;
+    padding: 0;
+}
+#price{
+    width: 30px;
+    margin-top: 0.5em;
+}
+#subname{
+    margin-top: 0.5em;
+}
+#duedate{
+    margin-top: 0.5em;
+}
+.submitnew{
+    padding: 1em;
+    background-color:tomato;
+    font-weight: bold;
+    font-size: medium;
+}
+input,label{
+    font-size: 20px;
+}
+#subs{
+    display: flex;
+    width: 1000px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-color: aquamarine;
+}
+.section{
+    font-size: 20px;
+}
