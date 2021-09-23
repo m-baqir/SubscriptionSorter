@@ -1,52 +1,57 @@
 <!--HTTP5103 Pet Project HTML file Mohammad Baqir-->
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
-    <script type="text/javascript" src="js/petproject.js" ></script>
-	  <link rel="stylesheet" href="css/petproject.css" />
-    <title>Subscription Manager</title>
-  </head>
-  <body>
-      <h2>Current Subscriptions:</h2>
-      <div id="subs">
-        <div class="section">
-          <p>Netflix</p>
-          <p>$10</p>
-          <p id="netdate">2021-05-15</p>
-          <span id="setdate1"></span>
-        </div>
-        <div class="section">
-          <p>Disney</p>
-          <p>$25</p>
-          <p id="disneydate">2021-05-10</p>
-          <span id="setdate2"></span>
-        </div>
-        <div class="section">
-          <p>Adobe</p>
-          <p>$95</p>
-          <p id="adobedate">2021-05-30</p>
-          <span id="setdate3"></span>
-        </div>
-        <div class="section">
-          <p id="name"></p>
-          <p id="price"></p>
-          <p id="date"></p>
-          <span id="numdate"></span>
-        </div>
-      </div>
-      <div>
-        <form id="new" name="form">        
-            <label for="subname">Subname:</label>
-            <input type="text" id="subname" name="subname"/><br>
-            <label for="price">Monthly price:</label>
-            <input type="text" id="price" name="price"/><br>
-            <label for="duedate">Payment due date:</label>
-            <input type="date" id="duedate" name="duedate"/>
-            <input type="submit" value="Submit" class="submitnew">
-        </form>
-      </div>
-    
-  </body>
+
+<head>
+  <meta charset="utf-8">
+  <script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
+  <script type="text/javascript" src="js/petproject.js"></script>
+  <link rel="stylesheet" href="css/petproject.css" />
+  <title>Subscription Manager</title>
+</head>
+
+<body>
+  <h1>Subscription Sorting application</h1>
+  <p>As an example some Subscriptions are already hardcoded. You can add additional Subscription using the form.</p>
+  <h2>Current Subscriptions:</h2>
+  <div id="subs">
+    <div class="section">
+      <p>Netflix</p>
+      <p>$10</p>
+      <p id="netdate">2021-05-15</p>
+      <span id="setdate1"></span>
+    </div>
+    <div class="section">
+      <p>Disney</p>
+      <p>$25</p>
+      <p id="disneydate">2021-05-10</p>
+      <span id="setdate2"></span>
+    </div>
+    <div class="section">
+      <p>Adobe</p>
+      <p>$95</p>
+      <p id="adobedate">2021-05-30</p>
+      <span id="setdate3"></span>
+    </div>
+    <div class="section">
+      <p id="name"></p>
+      <p id="price"></p>
+      <p id="date"></p>
+      <span id="numdate"></span>
+    </div>
+  </div>
+  <div>
+    <form id="new" name="form">
+      <label for="subname">Subname:</label>
+      <input type="text" id="subname" name="subname" /><br>
+      <label for="price">Monthly price:</label>
+      <input type="text" id="price" name="price" /><br>
+      <label for="duedate">Payment due date:</label>
+      <input type="date" id="duedate" name="duedate" />
+      <input type="submit" value="Submit" class="submitnew">
+    </form>
+  </div>
+
+</body>
+
 </html>
